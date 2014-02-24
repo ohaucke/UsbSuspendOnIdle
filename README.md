@@ -6,7 +6,7 @@ Simple *DeviceHackFlags* Workaround Tool for USB storage devices
 __Problems with Windows 8.1 and Windows Server 2012 R2’s power safe option__  
 Some USB storage devices do not work correctly when using the power safe option. Devices that have not been used for a certain time suspend on idle. If you then try to access the files on the device, Windows Explorer becomes unresponsive for one to two minutes or the device does not restart properly and will be ejected and reinitialized. 
 
-You can fix this by installing the latest firmware for your system or device, the KB2911106 Hotfix (Download: x86 / x64) _\*if your device is supported\*_, or by setting the _DeviceHackFlags_ for your device on the "Devices" tab. You just have to uncheck the box for your device in the "SOI" (SuspendOnIdle) column.
+You can fix this by installing the latest firmware for your system or device, the [KB2911106](http://support.microsoft.com/kb/2914219/en-us) Hotfix (Download: [x86](http://www.microsoft.com/de-de/download/details.aspx?id=41569) / [x64](http://www.microsoft.com/de-de/download/details.aspx?id=41570)) _\*if your device is supported\*_, or by setting the _DeviceHackFlags_ for your device on the "Devices" tab. You just have to uncheck the box for your device in the "SOI" (SuspendOnIdle) column.
 
 __For more informations:__  
 * [USB storage device does not work correctly in Windows 8.1 and in Windows Server 2012 R2](http://support.microsoft.com/kb/2914219/en-us)
@@ -18,7 +18,7 @@ __For more informations:__
 ![info.png](docs/info.png)
 
 ## Requirements
-* [.Net Framework 4](http://www.microsoft.com/de-de/download/details.aspx?id=17718)
+* [.Net Framework 4.0](http://www.microsoft.com/de-de/download/details.aspx?id=17718)
 * [HtmlRenderer](https://github.com/ArthurHub/HTML-Renderer)
 
 ## General
