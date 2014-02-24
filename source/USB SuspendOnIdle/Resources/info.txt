@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Info</title>
+  </head>
+  <body>
+    <div style="font-family: Microsoft Sans Serif; font-size:8.25pt">
+      <h2>Problems with Windows 8.1 and Windows Server 2012 R2’s power safe option</h2>
+      <p>Some USB storage devices do not work correctly when using the power safe option. Devices that have not been used for a certain time suspend on idle. If you then try to access the files on the device, Windows Explorer becomes unresponsive for one to two minutes or the device does not restart properly and will be ejected and reinitialized.</p>
+      <p>You can fix it by installing the latest firmware for the system or device, the <a href="http://support.microsoft.com/kb/2914219/en-us">KB2911106</a> Hotfix (Download: <a href="http://www.microsoft.com/de-de/download/details.aspx?id=41569">x86</a> / <a href="http://www.microsoft.com/de-de/download/details.aspx?id=41570">x64</a>) <span style="font-style:italic">*if your device is supported*</span>, or by setting the <span style="font-style:italic">DeviceHackFlags</span>&nbsp;&nbsp;for your device on the "Devices" tab. You just have to uncheck the box for your device in the "SOI" (SuspendOnIdle) column.</p>
+      <h2>For more informations:</h2>
+      <ul>
+        <li><a href="http://support.microsoft.com/kb/2914219/en-us">USB storage device does not work correctly in Windows 8.1 and in Windows Server 2012 R2</a></li>
+        <li><a href="http://blogs.msdn.com/b/usbcoreblog/archive/2013/11/01/help-after-installing-windows-8-1-my-usb-drive-disappears-or-file-transfers-stop-unexpectedly-r-a-post-title.aspx">Help! After installing Windows 8.1, my USB drive disappears or file transfers stop unexpectedly…</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
