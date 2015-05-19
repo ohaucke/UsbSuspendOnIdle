@@ -1,7 +1,7 @@
 # USB SuspendOnIdle
 Simple *DeviceHackFlags* Workaround Tool for USB storage devices
 
-![power.png](docs/power.png)
+![power.png](https://cloud.githubusercontent.com/assets/3750494/7703858/f9c50be8-fe3a-11e4-9eb5-fe5e2f38349d.png)
 
 __Problems with Windows 8.1 and Windows Server 2012 R2’s power safe option__  
 Some USB storage devices do not work correctly when using the power safe option. Devices that have not been used for a certain time suspend on idle. If you then try to access the files on the device, Windows Explorer becomes unresponsive for one to two minutes or the device does not restart properly and will be ejected and reinitialized. 
@@ -13,9 +13,9 @@ __For more informations:__
 * [Help! After installing Windows 8.1, my USB drive disappears or file transfers stop unexpectedly…](http://blogs.msdn.com/b/usbcoreblog/archive/2013/11/01/help-after-installing-windows-8-1-my-usb-drive-disappears-or-file-transfers-stop-unexpectedly-r-a-post-title.aspx)
 
 ## Screens
-![devices.png](docs/devices.png)
+![devices.png](https://cloud.githubusercontent.com/assets/3750494/7703856/f9a0b9b4-fe3a-11e4-95eb-8bbfa0470767.png)
 
-![info.png](docs/info.png)
+![info.png](https://cloud.githubusercontent.com/assets/3750494/7703857/f9c2f060-fe3a-11e4-8cf5-4f35a7796d32.png)
 
 ## Requirements
 * [.Net Framework 4.0](http://www.microsoft.com/de-de/download/details.aspx?id=17718)
